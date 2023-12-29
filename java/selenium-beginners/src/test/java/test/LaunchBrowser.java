@@ -12,9 +12,10 @@ public class LaunchBrowser {
         String chromeDriverLocation = currentProjectLocation.concat(chromeDriverRelativePath);
 
         System.setProperty("webdriver.chrome.driver",chromeDriverLocation);
+
         driver = new ChromeDriver();
 
-        driver.get("https://hoaumo.com");
+        driver.get("https://hoaumo.shop");
         // Debug only
         try {
             Thread.sleep(2000);
