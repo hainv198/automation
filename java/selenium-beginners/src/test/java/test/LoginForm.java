@@ -32,8 +32,9 @@ public class LoginForm {
         try {
             driver.get("https://the-internet.herokuapp.com/login");
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-            WebElement usernameElement = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("#usernames"))));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+            WebElement usernameElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#username")));
 
             //WebElement usernameElement = driver.findElement(By.cssSelector("#usernames"));
 
