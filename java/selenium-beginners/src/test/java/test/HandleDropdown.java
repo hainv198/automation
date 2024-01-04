@@ -4,23 +4,28 @@ import driver.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class HandleDropdown {
     public static void main(String[] args) {
-
         WebDriver driver = DriverFactory.getChromeDriver();
         try {
-
-            //open
             driver.get("https://the-internet.herokuapp.com/dropdown");
+            WebElement dropdownEle = driver.findElement(By.id("dropdown"));
+            // 4. Init select instance
+            Select select = new Select(dropdownEle);
+            select.selectByVisibleText("Option 1");
+            select.selectByVisibleText("Option 2");
 
-            // locate dropdown element
-            WebElement dropdown = driver.findElement(By.id("dropdown"));
-            dropdown.click();
+            select.selectByValue("1");
+            select.selectByValue("2");
+
             Thread.sleep(2000);
+
         }catch (Exception e) {
             e.printStackTrace();
         }
+
         driver.quit();
     }
 }
