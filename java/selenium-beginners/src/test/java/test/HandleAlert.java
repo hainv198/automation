@@ -30,6 +30,25 @@ public class HandleAlert {
             System.out.printf(driver.findElement(result).getText());
 
 
+            // get alert confirm
+            driver.findElement(jsConfirmBtnSelect).click();
+            alert = wait.until(ExpectedConditions.alertIsPresent());
+            System.out.printf("Alert confirm :" + alert.getText());
+
+            alert.dismiss();
+            System.out.printf(driver.findElement(result).getText());
+
+            // play with prompt js
+            driver.findElement(jsPromptBtnSelect).click();
+            alert = wait.until(ExpectedConditions.alertIsPresent());
+            System.out.printf("Alert prompt" + alert.getText());
+            alert.sendKeys("Hainv");
+            alert.accept();
+            System.out.printf(driver.findElement(result).getText());
+
+
+            // debug only
+            Thread.sleep(2000);
         }catch (Exception e) {
             e.printStackTrace();
         }

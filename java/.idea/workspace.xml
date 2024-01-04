@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae960657-a045-46ba-98d3-9a25c4788b66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleCheckbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-beginners/src/test/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/driver/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleAlert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.HandleAlert.executor": "Run",
     "Application.HandleCheckbox.executor": "Run",
     "Application.LoginForm.executor": "Run",
     "Application.test.executor": "Run",
@@ -96,7 +86,9 @@
       <workItem from="1703932944743" duration="74000" />
       <workItem from="1703933205705" duration="3239000" />
       <workItem from="1704037316257" duration="121000" />
-      <workItem from="1704213739904" duration="3134000" />
+      <workItem from="1704213739904" duration="3297000" />
+      <workItem from="1704301387117" duration="1051000" />
+      <workItem from="1704383497905" duration="2772000" />
     </task>
     <servers />
   </component>
