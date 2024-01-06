@@ -4,11 +4,13 @@ import driver.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
 import java.util.List;
 
 public class HandleCheckbox {
-    public static void main(String[] args) {
+    @Test
+    public static void testSelectCheckboxes() {
         // init webdriver
         WebDriver driver = DriverFactory.getChromeDriver();
         try {

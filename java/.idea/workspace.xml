@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae960657-a045-46ba-98d3-9a25c4788b66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/element/DnDHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/element/ElementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleIframe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-beginners/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-beginners/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleCheckbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/HandleCheckbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/MouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-beginners/src/test/java/test/MouseHover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +43,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.DnDHandle.executor": "Run",
     "Application.HandleAlert.executor": "Run",
     "Application.HandleCheckbox.executor": "Run",
+    "Application.HandleIframe.executor": "Run",
     "Application.LoginForm.executor": "Run",
+    "Application.MouseHover.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.HandleCheckbox.testSelectCheckboxes.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
     "kotlin-language-version-configured": "true",
@@ -65,6 +75,34 @@
       <recent name="C:\automation\java\Test\src\test\java" />
       <recent name="C:\automation\java\Test\src\test\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HandleCheckbox.testSelectCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HandleCheckbox" />
+      <option name="METHOD_NAME" value="testSelectCheckboxes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HandleCheckbox.testSelectCheckboxes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -88,7 +126,8 @@
       <workItem from="1704037316257" duration="121000" />
       <workItem from="1704213739904" duration="3297000" />
       <workItem from="1704301387117" duration="1051000" />
-      <workItem from="1704383497905" duration="2772000" />
+      <workItem from="1704383497905" duration="3404000" />
+      <workItem from="1704466362819" duration="12590000" />
     </task>
     <servers />
   </component>
